@@ -52,4 +52,4 @@ const Intro = () => {
 	);
 };
 
-export default Welcome;
+export default Intro;
