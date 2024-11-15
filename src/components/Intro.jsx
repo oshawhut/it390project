@@ -1,6 +1,6 @@
 import React from "react";
 
-const Welcome = () => {
+const Intro = () => {
 	// Date object
 	const now = new Date();
 
