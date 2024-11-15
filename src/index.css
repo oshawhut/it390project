@@ -5,7 +5,6 @@
 
 	color-scheme: light dark;
 	color: rgba(255, 255, 255, 0.87);
-	background-color: #242424;
 
 	font-synthesis: none;
 	text-rendering: optimizeLegibility;
@@ -19,39 +18,23 @@ a {
 	text-decoration: inherit;
 }
 a:hover {
-	color: #535bf2;
+	color: #735e59;
+}
+
+html,
+body {
+	height: 100%;
+	margin: 0;
 }
 
 body {
-	margin: 0;
 	display: flex;
-	place-items: center;
-	min-width: 320px;
-	/* min-height: 100vh; */
+	background: url(./assets/pinkclouds.jpg);
 }
 
 h1 {
 	font-size: 3.2em;
 	line-height: 1.1;
-}
-
-button {
-	border-radius: 8px;
-	border: 1px solid transparent;
-	padding: 0.6em 1.2em;
-	font-size: 1em;
-	font-weight: 500;
-	font-family: inherit;
-	background-color: #1a1a1a;
-	cursor: pointer;
-	transition: border-color 0.25s;
-}
-button:hover {
-	border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-	outline: 4px auto -webkit-focus-ring-color;
 }
 
 @media (prefers-color-scheme: light) {
@@ -67,30 +50,7 @@ button:focus-visible {
 	}
 }
 
-/* Navbar.css */
-.navbar {
-	background-color: #333;
-	padding: 10px 0; /* Remove horizontal padding */
-	width: 100vw; /*Make the navbar span the entire viewport width */
-}
-
-.navbar-list {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	display: flex;
-	justify-content: center; /* Center-align items in the navbar */
-}
-
-/* Navbar links */
-.navbar-item a {
-	color: white;
-	text-decoration: none;
-	padding: 8px 16px;
-	display: block;
-}
-
-.navbar-item a:hover {
-	background-color: #575757;
-	border-radius: 4px;
+/* Padding for Intro.jsx*/
+.intro {
+	padding-left: 30px;
 }
