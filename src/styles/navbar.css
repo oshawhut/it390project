@@ -1,0 +1,38 @@
+/* Logo styling */
+.logo {
+	font-size: 32px;
+	color: #b9cbe1;
+	-webkit-text-stroke: 1px white;
+	font-weight: 700;
+	margin-left: 20px; /* Add left margin if needed for space from the left */
+}
+
+/* Navbar container styling */
+.navbar-container {
+	background-color: #fadce4;
+	display: flex; /* Enable flexbox */
+	justify-content: space-between; /* Place logo on the left, links on the right */
+	align-items: center; /* Align items vertically */
+	padding: 5px 20px; /* Add padding to make the navbar comfortable, adjust if necessary */
+	min-width: 100vw; /* Ensure it spans the entire viewport width */
+	box-sizing: border-box; /* Include padding in width/height calculation */
+}
+
+/* Container for the links */
+.navbar-links {
+	display: flex; /* Use flex to lay out the links in a row */
+	gap: 20px; /* Evenly space the links */
+	margin-right: 20px;
+}
+
+/* Navbar links */
+.navbar-links a {
+	color: #735e59;
+	text-decoration: none;
+	padding: 8px 16px;
+}
+
+.navbar-links a:hover {
+	background-color: white;
+	border-radius: 4px;
+}

@@ -39,7 +39,7 @@ const Intro = () => {
 	console.log(`${dayOfWeek}, ${month} ${dayWithSuffix} ${time}`);
 
 	return (
-		<div>
+		<div className="intro">
 			<h1>
 				{dayOfWeek}, {month} {dayWithSuffix}, {time}.
 			</h1>
