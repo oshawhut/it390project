@@ -1,6 +1,8 @@
 import { useState } from "react";
 import "./App.css";
 import Navbar from "./components/Navbar.jsx";
+import Intro from "./components/Intro.jsx";
+import Calendar from "./components/Calendar.jsx";
 
 function App() {
 	// const [count, setCount] = useState(0);
@@ -8,6 +10,7 @@ function App() {
 	return (
 		<>
 			<Navbar />
+			<Intro />
 			{/* <div>
 				<a href="https://vite.dev" target="_blank">
 					<img src={viteLogo} className="logo" alt="Vite logo" />
